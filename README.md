@@ -5,7 +5,8 @@ This demo project shows how using raw IQ samples obtained from the Minew Aoa Loc
 To start the project, you need to submit raw IQ samples to the algorithm input:
 
 ```
- cat data.json | python3 aoa_demo.py 
+ cd src/
+ cat ../data/static.json | python3 aoa_demo.py 
 ```
 
 At the output, we get the calculated angles and coordinates:
@@ -34,3 +35,23 @@ azimuth_angle:44.0, elevation_angle:-15.0
 x_beacon:9.475271358924696, y_beacon:5.333235601052133
 ...
 ```
+
+The beacon was located relative to the locator as follows:
+
+<img src="img/location.jpg" alt="img/location.jpg" width="400"/>
+
+Locator settings:
+
+<img src="img/locator_settings.jpg" alt="img/locator_settings.jpg" width="400"/>
+
+## Problems in calculating the AoA 
+
+In the stationary test, everything is fine, but if you carry out the following experiment: first the beacon lies in place, then it moves a little from side to side, and at the end - it lies in the same place again, then a strange effect is observed: during this small movement, a constant offset by some angle. This movement is expected to be close to stationary and therefore the angle should be approximately the same, but this is not the case.
+
+In support of my words, I attach a video of the experiment:
+
+And a figure of the change in azimuth phases:
+
+![dynamic_azimuth_phases](img/dynamic_azimuth_phases.jpg)
+
+The input data is located in the file: `dynamic.json`
