@@ -44,6 +44,8 @@ Locator settings:
 
 <img src="img/locator_settings.jpg" alt="img/locator_settings.jpg" width="400"/>
 
+The accuracy of the angles obtained corresponds to the accuracy stated in the article, in other words, it is no more than 6 degrees.
+
 ## Problems in calculating the AoA 
 
 In the stationary test, everything is fine, but if you carry out the following experiment: first the beacon lies in place, then it moves a little from side to side, and at the end - it lies in the same place again, then a strange effect is observed: during this small movement, a constant offset by some angle. This movement is expected to be close to stationary and therefore the angle should be approximately the same, but this is not the case.
