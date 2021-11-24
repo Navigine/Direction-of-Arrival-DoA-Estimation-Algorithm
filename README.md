@@ -50,6 +50,10 @@ In the stationary test, everything is fine, but if you carry out the following e
 
 In support of my words, I attach a video of the experiment:
 
+
+https://user-images.githubusercontent.com/30315050/143232495-941c00ad-b561-448f-9a1e-35b51a915432.MOV
+
+
 And a figure of the change in azimuth phases:
 
 ![dynamic_azimuth_phases](img/dynamic_azimuth_phases.jpg)
