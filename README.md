@@ -44,7 +44,7 @@ Locator settings:
 
 <img src="img/locator_settings.jpg" alt="img/locator_settings.jpg" width="400"/>
 
-The accuracy of the angles obtained corresponds to the accuracy stated in the article, in other words, it is no more than 6 degrees.
+The accuracy of the angles obtained corresponds to the accuracy stated in the article, where measurements were taken from many different points. In other words, it is no more than 6 degrees.
 
 ## Problems in calculating the AoA 
 
