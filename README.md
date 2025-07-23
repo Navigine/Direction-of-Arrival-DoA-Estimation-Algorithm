@@ -1,4 +1,16 @@
-This demo project shows how using raw IQ samples obtained from the Minew Aoa Locator, you can get the azimuth and elevation angles at which the beacon is located. Using these angles, we also get the position of the beacon in XY coordinates (knowing the location of the locator in the same coordinate system). This project is based on our [AoA article](https://navigine.com/blog/using-angle-of-arrival-for-direction-finding-with-bluetooth/) in which we determined the azimuth angle using 2 adjacent elements of the linear antenna array of the locator.
+<a href="http://navigine.com"><img src="https://navigine.com/assets/web/images/logo.svg" align="right" height="60" width="180" hspace="10" vspace="5"></a>
+
+# Direction-of-Arrival-DoA-Estimation-Algorithm
+
+This demo project shows how using raw IQ samples obtained from the Minew AoA Locator, you can get the azimuth and elevation angles at which the beacon is located. Using these angles, we also get the position of the beacon in XY coordinates (knowing the location of the locator in the same coordinate system). This project is based on our [AoA article](https://navigine.com/blog/using-angle-of-arrival-for-direction-finding-with-bluetooth/) in which we determined the azimuth angle using 2 adjacent elements of the linear antenna array of the locator.
+
+### Useful Navigine Links
+
+- [Navigine Official Website](https://navigine.com/) – Learn more about our technology, products, and services.
+- [User Manual](http://docs.navigine.com/) – Full product usage guidelines and SDK documentation.
+- [Get Started with Navigine](http://locations.navigine.com/login) – Create your account and begin building indoor navigation solutions.
+- [Discuss the project](https://community.navigine.com/t/direction-of-arrival-doa-estimation-algorithm/174) – Join the community thread for questions, feedback, and collaboration specific to this repository.
+- [Contact Navigine](https://navigine.com/contacts/) – Reach out for business or technical support.
 
 ## Getting started
 
